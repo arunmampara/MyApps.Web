@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5165",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OTEL_EXPORTER_OTLP_PROTOCOL" :"http/protobuf",
+        "OTEL_EXPORTER_OTLP_ENDPOINT" : "https://otlp-gateway-prod-au-southeast-1.grafana.net/otlp",
+        "OTEL_EXPORTER_OTLP_HEADERS" : "Authorization=Basic MTUzMzMzMzpnbGNfZXlKdklqb2lNVFkzTlRnNU5pSXNJbTRpT2lKemRHRmpheTB4TlRNek16TXpMVzkwYkhBdGQzSnBkR1V0WW1VdGIySnpaWEoyWlhJaUxDSnJJam9pZVhjd056QTNUVGcxUnpCQ1duTTFOa1Z2YkVSVmNqRndJaXdpYlNJNmV5SnlJam9pY0hKdlpDMWhkUzF6YjNWMGFHVmhjM1F0TVNKOWZRPT0="
+      }
+    }
+  }
+}
