@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Logging
     .ClearProviders()
     .AddConsole()
-   .AddDebug();
+    .AddDebug();
 
 builder.Services.AddOpenTelemetry()
     .ConfigureResource(resourceBuilder =>
